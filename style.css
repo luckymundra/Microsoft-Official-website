@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px red solid; */
+    
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fffeff;
+    padding: 15px 40px;
+}
+nav img{
+    height: 24px;
+}
+.primary-links{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.secondary-links{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.image-section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+   
+}
+
+.surface-section{
+    height: 70vh;
+    width: 100%;
+    padding: 150px;
+    background-image: url(./images/download\ 2.jpeg);
+    background-size: cover;
+   
+}
+.surface-text-section{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.learn-btn{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+}
+.four-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.div-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px;
+}
+.div-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px;
+}
+.div-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px;
+}
+.div-4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    padding: 30px;
+}
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.coloum{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    padding: 10px;
+}
+.card-section img{
+    height: 180px;
+}
+.card-section h2{
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+.card-section p{
+    color: #422C18;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+.card-section a{
+    color: #AD4517;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+.large-image-section{
+    background-image: url(./images/gldn-MSFT-hero-Edge_VP5-1596x600.avif);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin: 50px;
+    padding: 150px 65px ;
+}.container{
+    height: 300px;
+    width: 350px;
+    background-color: white;
+    padding: 60px;
+}
+.business-section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+.four-coloum{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 350px;
+    padding: 10px;
+}
+.business-section img{
+    height: 180px;
+}
+.business-section h2{
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-top: 10px;
+}
+.business-section p{
+    color: #422C18;
+    margin-top: 20px;
+}
+.business-section a{
+    color: #AD4517;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icon{
+    display: flex;
+    font-size: 20px;
+    padding: 50px;
+    
+}
+.icon i{
+    margin-left: 25px;
+    font-size: 25px;
+
+}
+.back-btn{
+    background-color: #D9D9D9;
+    height: 40px;
+    width: 110px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    bottom: 10px;
+    margin-left: 1400px;
+    margin-bottom: 40px;
+  
+}
+.main-footer{
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 80px;
+}
+.footer{
+display: flex;
+    justify-content: space-between;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.fotter-head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+}
+.fotter-head ul{
+    list-style: none;
+    display: flex;
+}
+.fotter-head li{
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 13px;
+}
+.fotter-head p{
+    color: rgba(0, 0, 0, 0.51);
+    font-size: 13px;
+}
